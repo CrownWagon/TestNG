@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18163" started-at="2018-12-10T01:41:22Z" finished-at="2018-12-10T01:41:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18163" started-at="2018-12-10T01:41:22Z" finished-at="2018-12-10T01:41:40Z">
+      <class name="TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest">
+        <test-method status="PASS" signature="openingnewtoursHomepge()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="openingnewtoursHomepge" is-config="true" duration-ms="6759" started-at="2018-12-10T01:41:22Z" finished-at="2018-12-10T01:41:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingnewtoursHomepge -->
+        <test-method status="PASS" signature="tc4()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="tc4" duration-ms="1365" started-at="2018-12-10T01:41:28Z" finished-at="2018-12-10T01:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="tc5" duration-ms="1290" started-at="2018-12-10T01:41:30Z" finished-at="2018-12-10T01:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="test1" duration-ms="5910" started-at="2018-12-10T01:41:31Z" finished-at="2018-12-10T01:41:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="test2" duration-ms="1219" started-at="2018-12-10T01:41:37Z" finished-at="2018-12-10T01:41:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="test3" duration-ms="1209" started-at="2018-12-10T01:41:38Z" finished-at="2018-12-10T01:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="closeTheBrowser" is-config="true" duration-ms="356" started-at="2018-12-10T01:41:39Z" finished-at="2018-12-10T01:41:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

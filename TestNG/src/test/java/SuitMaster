@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Login Page Test">
+    <classes>
+      <class name="TestNGAutomationTesting.TestNG.LoginTest"/>
+      <class name="TestNGAutomationTesting.TestNG.RegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="RegistrationPage">
+  <groups>
+  <run>
+  <include name = "email"/>
+  
+  </run>
+  </groups>
+    <classes>
+      <class name="TestNGAutomationTesting.TestNG.RegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

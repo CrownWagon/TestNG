@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Login Page Test(failed)">
+    <classes>
+      <class name="TestNGAutomationTesting.TestNG.RegistrationTest">
+        <methods>
+          <include name="phoneTest2"/>
+          <include name="beforeSuite"/>
+          <include name="phoneTest1"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- TestNGAutomationTesting.TestNG.RegistrationTest -->
+    </classes>
+  </test> <!-- Login Page Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
