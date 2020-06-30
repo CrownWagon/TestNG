@@ -1,41 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18163" started-at="2018-12-10T01:41:22Z" finished-at="2018-12-10T01:41:40Z">
+  <suite name="Suite" duration-ms="106" started-at="2020-05-08T23:04:13Z" finished-at="2020-05-08T23:04:14Z">
     <groups>
+      <group name="A">
+        <method signature="JournalPage$MyTestClass2.myTestMethod4()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="myTestMethod4" class="TestNGAutomationExtends.JournalPage$MyTestClass2"/>
+        <method signature="GalleryPage$MyTestClass1.myTestMethod1()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="myTestMethod1" class="TestNGAutomationExtends.GalleryPage$MyTestClass1"/>
+      </group> <!-- A -->
+      <group name="B">
+        <method signature="JournalPage$MyTestClass2.myTestMethod3()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="myTestMethod3" class="TestNGAutomationExtends.JournalPage$MyTestClass2"/>
+        <method signature="GalleryPage$MyTestClass1.myTestMethod2()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="myTestMethod2" class="TestNGAutomationExtends.GalleryPage$MyTestClass1"/>
+      </group> <!-- B -->
     </groups>
-    <test name="Default test" duration-ms="18163" started-at="2018-12-10T01:41:22Z" finished-at="2018-12-10T01:41:40Z">
-      <class name="TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest">
-        <test-method status="PASS" signature="openingnewtoursHomepge()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="openingnewtoursHomepge" is-config="true" duration-ms="6759" started-at="2018-12-10T01:41:22Z" finished-at="2018-12-10T01:41:28Z">
+    <test name="Test Tag2" duration-ms="106" started-at="2020-05-08T23:04:13Z" finished-at="2020-05-08T23:04:14Z">
+      <class name="TestNGAutomationExtends.GalleryPage$MyTestClass1">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="beforeSuite" is-config="true" duration-ms="24" started-at="2020-05-08T23:04:13Z" finished-at="2020-05-08T23:04:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openingnewtoursHomepge -->
-        <test-method status="PASS" signature="tc4()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="tc4" duration-ms="1365" started-at="2018-12-10T01:41:28Z" finished-at="2018-12-10T01:41:30Z">
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-05-08T23:04:13Z" finished-at="2020-05-08T23:04:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc4 -->
-        <test-method status="PASS" signature="tc5()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="tc5" duration-ms="1290" started-at="2018-12-10T01:41:30Z" finished-at="2018-12-10T01:41:31Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc5 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="test1" duration-ms="5910" started-at="2018-12-10T01:41:31Z" finished-at="2018-12-10T01:41:37Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="myTestMethod1()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="myTestMethod1" duration-ms="12" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="test2" duration-ms="1219" started-at="2018-12-10T01:41:37Z" finished-at="2018-12-10T01:41:38Z">
+        </test-method> <!-- myTestMethod1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="test3" duration-ms="1209" started-at="2018-12-10T01:41:38Z" finished-at="2018-12-10T01:41:39Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest@1e88b3c]" name="closeTheBrowser" is-config="true" duration-ms="356" started-at="2018-12-10T01:41:39Z" finished-at="2018-12-10T01:41:40Z">
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeTheBrowser -->
-      </class> <!-- TestNGAutomationTesting.TestNG.BeforeClassAndAfterClassTest2DataDrivenTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTestMethod2()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="myTestMethod2" duration-ms="14" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestMethod2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNGAutomationExtends.GalleryPage$MyTestClass1@56ef9176]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNGAutomationExtends.GalleryPage$MyTestClass1 -->
+    </test> <!-- Test Tag2 -->
+    <test name="Test Tag1" duration-ms="63" started-at="2020-05-08T23:04:13Z" finished-at="2020-05-08T23:04:14Z">
+      <class name="TestNGAutomationExtends.JournalPage$MyTestClass2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:13Z" finished-at="2020-05-08T23:04:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="beforeClass" is-config="true" duration-ms="3" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTestMethod3()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="myTestMethod3" duration-ms="6" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestMethod3 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myTestMethod4()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="myTestMethod4" duration-ms="2" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myTestMethod4 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="afterClass" is-config="true" duration-ms="2" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNGAutomationExtends.JournalPage$MyTestClass2@6eebc39e]" name="afterTest" is-config="true" duration-ms="1" started-at="2020-05-08T23:04:14Z" finished-at="2020-05-08T23:04:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGAutomationExtends.JournalPage$MyTestClass2 -->
+    </test> <!-- Test Tag1 -->
+  </suite> <!-- Suite -->
 </testng-results>

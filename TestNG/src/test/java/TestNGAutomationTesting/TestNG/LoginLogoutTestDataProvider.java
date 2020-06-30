@@ -39,7 +39,7 @@ public class LoginLogoutTestDataProvider {
   Driver.findElement(By.linkText("SIGN-OFF")).click();
 	  String Currenturl = Driver.getCurrentUrl();
 	  System.out.println(Currenturl);
-	  //Assert.assertEquals("Welcome back to Mercury Tours", "Welcome back to Mercury Tours" );
+	  Assert.assertEquals("Welcome back to Mercury Tours", "Welcome back to Mercury Tours" );
 	   //Driver.close();
 	  
 	  
@@ -61,7 +61,7 @@ public class LoginLogoutTestDataProvider {
   }
   
   
- /* Another way of using Dataprovider 
+ // Another way of using Dataprovider 
   @DataProvider
   public Object[][]userNameandPassword() {
 	return new Object[][] {
@@ -71,9 +71,9 @@ public class LoginLogoutTestDataProvider {
 	new Object[] {"d","d"},
 	new Object[] {"e","e"},
 	};
-  }*/
+  }
   
-   @DataProvider
+  /* @DataProvider
    public  Object[][] userNameandPassword() {
      Object[][] userNameAndPasswordObject= new Object[][] {
    	     {"a", "dddddd"},
@@ -88,7 +88,7 @@ public class LoginLogoutTestDataProvider {
 
      return userNameAndPasswordObject;    
 }
-
+*/
   
 }  
 

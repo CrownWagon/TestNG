@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestNGAutomationTesting.TestNG.RegistrationTest">
+      <class name="TestNGAutomationTesting.TestNG.LoginLogoutTestDataProvider">
         <methods>
-          <include name="phoneTest2"/>
-          <include name="beforeSuite"/>
-          <include name="phoneTest1"/>
-          <include name="afterSuite"/>
+          <include name="closeTheBrowser"/>
+          <include name="loginTestwithwrongcredentials" invocation-numbers="1 2 3 4"/>
+          <include name="openingnewtoursHomepge"/>
         </methods>
-      </class> <!-- TestNGAutomationTesting.TestNG.RegistrationTest -->
+      </class> <!-- TestNGAutomationTesting.TestNG.LoginLogoutTestDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
